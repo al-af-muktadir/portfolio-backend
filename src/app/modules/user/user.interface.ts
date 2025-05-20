@@ -1,5 +1,5 @@
 export type Tuser = {
-  name: string;
   email: string;
+  role: string;
   password: string;
 };
