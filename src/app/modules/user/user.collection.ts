@@ -7,6 +7,7 @@ import sendRespose from '../../utils/sendResponse';
 import { AppError } from '../../utils/AppError';
 
 const login = catchAsync(async (req, res) => {
+  console.log('sdasdsd');
   const result = await userService.logInUserFromDb(req.body);
   const { refreshToken } = result;
   res.cookie('refreshToken', refreshToken, {
