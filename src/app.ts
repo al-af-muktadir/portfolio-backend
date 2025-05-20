@@ -12,7 +12,7 @@ app.use(
       'http://localhost:3000',
       'http://localhost:3001',
       'https://new-project-5-two.vercel.app',
-      'portfolio-dashboard-ivory.vercel.app',
+      'https://portfolio-dashboard-ivory.vercel.app',
     ],
     credentials: true,
   }),
